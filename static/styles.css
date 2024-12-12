@@ -1,1 +1,38 @@
 @import "https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css";
+
+/* Custom Theme Colors */
+.bg-primary {
+    background-color: #4A90E2;
+}
+
+.bg-secondary {
+    background-color: #50E3C2;
+}
+
+.bg-accent {
+    background-color: #F8E71C;
+}
+
+.text-primary {
+    color: #333333;
+}
+
+.text-secondary {
+    color: #50E3C2;
+}
+
+.text-accent {
+    color: #F8E71C;
+}
+
+.border-primary {
+    border-color: #4A90E2;
+}
+
+.border-secondary {
+    border-color: #50E3C2;
+}
+
+.border-accent {
+    border-color: #F8E71C;
+}
