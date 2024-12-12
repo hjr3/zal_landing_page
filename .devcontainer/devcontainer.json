@@ -1,0 +1,16 @@
+{
+    "name": "Rust Dev Container",
+    "image": "mcr.microsoft.com/devcontainers/rust:0-1.60",
+    "features": {
+        "ghcr.io/devcontainers/features/rust:1": {}
+    },
+    "forwardPorts": [3000],
+    "postCreateCommand": "cargo build",
+    "customizations": {
+        "vscode": {
+            "settings": {},
+            "extensions": ["rust-lang.rust-analyzer"]
+        }
+    },
+    "remoteUser": "vscode"
+}
